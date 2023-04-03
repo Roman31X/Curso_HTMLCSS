@@ -1,0 +1,35 @@
+*{
+    font-family: Arial, Vernada;
+}
+
+.verdana{
+    font-family: Verdana;
+    font-weight: 600;
+    letter-spacing: 10px;
+    text-align: center;
+}
+
+p{
+    /*font: bold 17px Thahoma;*/
+    font-size: 17px;
+    font-style: italic;
+}
+
+#texto{
+    /*text-align-last: right;*/
+    text-indent:20px;
+    line-height: 20px;
+    backgraund:blue;
+    /*le da color al texto*/
+    /*color: blue;*/
+}
+
+#texto img{
+   vertical-align: text-top;
+
+
+}
+
+#texto a{
+    text-decoration: none;
+}
