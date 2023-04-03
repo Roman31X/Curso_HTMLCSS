@@ -1,0 +1,40 @@
+.contenedor{
+    border:solid 5px black;
+    width:500px;
+    height:500px;
+    margin-top:50px;
+    margin-left:50px;
+    /*
+    background-image: -webkit-linear-gradient(left, #585955 ,#FFFFFF);
+    esta solo aplica al contenedor sin afectar a la imagen*/
+}
+.margen1{
+    width:500px;
+    height:500px;
+    /*se aplica el filtro con comando
+    filter:blur(0px);filtro de opacidad de imagen
+    comprende de 1px a 10px maximo*/
+    /*filter: grayscale(0.8); /*valor exadecimales de 0.1 a 1 que es emaximo*/
+
+}
+.margen2{
+    width:500px;
+    height:500px;
+    filter:hue-rotate(300deg);
+}
+.margen3{
+    width:500px;
+    height:500px;
+}
+/*comandos
+drop-shadow(30px 10px 4px #4444dd)
+blur (valor) - 1px  a 10 px;
+grayscale(value) - 0.1 y 1.
+sepia(valor) - 0.1 y 1.
+brightness(valor) - 0.1 y 1
+contrast (valor) - 0.1 y 10.
+hue-rotate(valor) - 1deg a 360deg.
+invert(valor) - 0.1 y 1
+saturate(valor) - 0.1 y 10,
+opacity(valor) - 0 y 1.
+*/

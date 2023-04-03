@@ -1,7 +1,6 @@
 /*DANDO ESTILO DE FONDO*/
 #contenedor1{
     border:solid 5px;
-    border
     width: 600px;
     height: 200px;
     margin: auto;
@@ -26,6 +25,6 @@
     padding-right: 50px;
 }
 #contenedor2{
-    height: 600px;
+    height:600px;
     background: #DB5D5D url(../ImagenCurso/fondo.jpg) no-repeat fixed;
 }

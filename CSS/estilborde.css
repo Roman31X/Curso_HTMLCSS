@@ -1,0 +1,28 @@
+
+.contenido{
+    margin-left:20px;
+    padding-left:20px;
+    padding-right20px:
+    width:500px;
+    height:200px;
+    /*sentencia general al elemento*/
+    border:solid 5px #01FFF9;
+    /*linea para agregar color al elemento*/
+    /*background: #5BBCBA;*/
+    /*Con esta sentencia se manipula los radios
+    del borde del elemento*/
+    border-radius:50px 50px 0px 0px;
+    /*Para crear sombra al elemento
+    + dirigido hacia la derecha
+    - dirigido hacia la izquierda
+    el tercer valor en px es el tipo
+    de difuminación del color*/
+    box-shadow: #A3EEEC -20px -5px 5px;
+    /*sombra para el texto*/
+    text-shadow: red 10px 10px 5px;
+    /*agregando gradiente del color en escala solo funciona
+    en algunos navegadores no en todos o incluye vensiones*/
+    background-image: -webkit-linear-gradient(left, #5BBCBA ,#D5FD42)
+
+
+}
