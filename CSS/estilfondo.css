@@ -1,0 +1,21 @@
+/*DANDO ESTILO DE FONDO*/
+#contenedor{
+    border:solid 10px;
+    width: 600px;
+    height: 200px;
+    margin: auto;
+    padding: 10px;
+    /*background-color: blue; dar color de fondo*/
+    background-image: url(../ImagenCurso/fondo.jpg);
+    background-repeat: no-repeat;/* con esta función podemos
+    repetir como no repetir previamnete modificando*/
+    /*para editar el tamaño de la imagen*/
+    background-size: cover;
+    /*alineamos el texto al medio*/
+    text-align: center;
+    /*le damos un margen al contenedor*/
+    margin-top:50px;
+    /*le damos margenes internos al contenido*/
+    padding-left:50px;
+    padding-right: 50px;
+}

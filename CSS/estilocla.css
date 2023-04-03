@@ -3,16 +3,17 @@
 }
 
 .verdana{
-    font-family: Verdana;
-    font-weight: 600;
+
+    font-family: Verdana; /*Esta propiedad declara el tipo de letra*/
+    font-weight: 600; /*Esta propiedad determina si se muestra en negrita o no*/
     letter-spacing: 10px;
     text-align: center;
 }
 
 p{
     /*font: bold 17px Thahoma;*/
-    font-size: 17px;
-    font-style: italic;
+    font-size: 17px; /*Esta propiedad determina el tamaño de letra*/
+    font-style: italic; /*Esta propiedad nos permite determinar el estilo de letra*/
 }
 
 #texto{
@@ -22,10 +23,11 @@ p{
     backgraund:blue;
     /*le da color al texto*/
     /*color: blue;*/
+    /*font:; Esta propiedad nos permite declarar multiples valores*/
 }
 
 #texto img{
-   vertical-align: text-top;
+   vertical-align: text-top; /*Esta propiedad alinea el texto verticalmente*/
 
 
 }
