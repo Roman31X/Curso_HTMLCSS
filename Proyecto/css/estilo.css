@@ -10,15 +10,17 @@ quita los margenes*/
 tamaño del contenedor*/
 html, body, .cover{
     height: 100%;
+    width: 100%;
     font-family: times;
+    background-color: green;
 }
 /*color del fondo*/
 .cover{
     background-image: url("../Imagenes/escudo.jpg");
     height: 100%;
+    width: 100%;
     background-size: 100%;
     background-repeat: no-repeat;
-    border: solid 1px rgb(0, 255, 47);
 }
 /*Seccion de nav*/
 nav{
@@ -34,6 +36,7 @@ section.superior{
     left: 0px;
     right: 0px;
     bottom: 0px;
+    height: 100%;
 }
 /*Edicion de la imagen*/
 div.logo{
@@ -42,12 +45,8 @@ div.logo{
 .logoT{
     width:300px;
     height: 150px;
-
 }
-h3{
-    font-size: 1.4rem;
-}
-/*CONTENEDOR*/
+/*edicion de boton de secion*/
 .titulo{
     font-size: 20px;
     padding-top: 5px;
@@ -55,25 +54,30 @@ h3{
     height: 30px;
     width: 100px;
     margin-top: 30px;
-    margin-right: 50px;
+    margin-right: 100px;
     float: right;
     background: #aa061c;
     border-radius: 5px 5px 5px 5px;
 }
-/*texto*/
+h3{
+    font-size: 1.4rem;
+}
+/*texto titulo y descripcion*/
 h1{
-    color: rgb(71, 218, 71);
+    color:white;
     font-size: 4rem;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     text-shadow: 0 0 15px yellow, 0 0 20px red;
 }
 h2{
     font-size: 1.625rem;
-    margin-bottom: 10px;
-    text-shadow: 0 0 15px darkorange, 0 0 15px yellow;
+    margin-bottom: 20px;
+    text-shadow: 0 0 15px red, 0 0 15px red;
 }
-p{
+/*Especificacion*/
+.des{
     font-size: 2rem;
+    margin-top: 10px;
     text-shadow: 0 0 15px darkorange, 0 0 15px red;
 }
 .presen{
@@ -83,32 +87,138 @@ p{
     display: flex;
     justify-content: center;
 }
+/*Barra de busqueda y boton*/
 .presen input{
+    padding-left: 20px;
+    margin-right: 0px;
     width: 280px;
     height: 40px;
+    margin-top: 10px;
+    border-radius: 10px 10px 10px 10px;
 }
 .presen span{
+    border: solid #aa061c;
     background-color: #aa061c;
-    padding: 15px;
+    padding: 10px;
+    border-radius: 10px 10px 10px 10px;
 }
 /*Seccion de CUERPO*/
 section.cuerpo{
-    position: absolute;
+    margin-top: 10px;
+    float: left;
+    width: 100%;
+    height: 550px;
+    background-color: black;
+}
+/*Edicion del contenido de los heroes*/
+.conte1{
+    margin-left: 5%;
+    width: 90%;
+    height: 75%;
+    margin-top: 8%;
+}
+/*Edicion de contenido dercha izquierda*/
+.izqui{
+    float: left;
+    width: 65%;
+    height: 60%;
+    margin-top: 1%;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    text-align: left;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: inset 0 0 10px white, 0 0 20px white;
+}
+.descrip1{
+    text-shadow: 0 0 15px white, 0 0 20px white;
+    font-size: 50px;
+    color: #aa061c;
+    border-bottom: solid 2px white;
+}
+.decrip2{
+    font-size: 20px;
+}
+/*Edicion de contenido dercha Derecha*/
+.dere{
+    float: right;
+    width: 25%;
+    height: 75%;
+    background-image: url("../Imagenes/foto1.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: inset 0 0 10px white, 0 0 20px white;
+}
+/*Seccion de PERSONAJES*/
+section.Personaje{
+    margin-top: 10px;
+    float: left;
+    width: 100%;
+    height: 100%;
     top: 0px;
     left: 0px;
     right: 0px;
     bottom: 0px;
-    text-align: center;
+    background-color: black;
 }
+/*contenedores de herues*/
+.herue{
+    background-color: black;
+    float: left;
+    width: 20%;
+    height: 630px;
+    margin-left: 60px;
+    margin-top: 50px;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: inset 0 0 10px white, 0 0 20px white;
+}
+.fotitu{
+    text-align: center;
+    padding-top: 20px;
+}
+.nombre{
+    color: white;
+}
+.foto{
+    width: 85%;
+    height: 24%;
+    margin-left: 7.5%;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: inset 0 0 10px white, 0 0 20px white;
+}
+.fot{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px 20px 20px 20px;
+}
+.info{
+    float: left;
+    width: 85%;
+    height: 60%;
+    margin-top: 25px;
+    font-size: 15px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+h5.subtitu{
+    font-size: 100%;
+    border-bottom: solid 2px white;
+}
+.infodes{
+    font-size: 100%;
+}
+
+
 
 /*Seccion de INFERIOR*/
 section.inferior{
-    background: ;
+    float: left;
     height: 20%;
     top: 0px;
     left: 0px;
     right: 0px;
     bottom: 0px;
-    border: solid 1px red;
-    
 }
