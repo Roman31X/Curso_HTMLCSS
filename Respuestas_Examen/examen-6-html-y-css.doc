@@ -1,0 +1,38 @@
+		<!doctype html>
+		<html>
+			<head>
+				<meta charset="utf-8">
+				<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+				<title>Examen 6 | HTML y CSS</title>
+
+				
+				<style type="text/css">
+
+					html,body {
+						font-family: 'Arial', 'helvetica', 'san-serif';
+					}
+
+					
+				</style>
+
+			</head>
+		<body>
+		<h1>Examen 6 | HTML y CSS</h1>
+
+		
+		<p>Ingresa aquí tus apuntes:</p>
+<p>1.- Al momento de utilizar un elemento el navegador crea una caja virtual que lo rodea.</p>
+<p>Verdadero</p>
+<p>2.- Las cajas se clasifican en dos tipos:</p>
+<p>Block y Inline</p>
+<p>3.- Esta propiedad define el tipo de caja usado para presentar el elemento en pantalla. Existen varios valores disponibles para esta propiedad.</p>
+<p>Display</p>
+<p> </p>
+<p> </p>
+<p> </p>
+
+		<p>Location:<a href="https://www.azulschool.net/quizzes/examen-6-html-y-css/"  target="new" >Examen 6 | HTML y CSS</a></p>
+
+		</body>
+		</html>
+		

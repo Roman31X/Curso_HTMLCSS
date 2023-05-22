@@ -1,0 +1,75 @@
+		<!doctype html>
+		<html>
+			<head>
+				<meta charset="utf-8">
+				<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+				<title>Examen 7 | HTML y CSS</title>
+
+				
+				<style type="text/css">
+
+					html,body {
+						font-family: 'Arial', 'helvetica', 'san-serif';
+					}
+
+					
+				</style>
+
+			</head>
+		<body>
+		<h1>Examen 7 | HTML y CSS</h1>
+
+		
+		<p>Ingresa aquí tus apuntes:</p>
+<p>1.- Esta propiedad permite a un elemento flotar hacia un lado u otro, y ocupar el espacio disponible, incluso cuando tiene que compartir la línea con otro elemento.</p>
+<p>float</p>
+<p>2.- Esta propiedad restaura el flujo normal del documento, y no permite que el elemento siga flotando hacia la izquierda, la derecha o ambos lados. Los valores disponibles son none, left, right, y both (ambos).</p>
+<p>clear</p>
+<p>3.- Esta propiedad define el tipo de posicionamiento usado para colocar un elemento.</p>
+<p>position</p>
+<p>4.- Esta propiedad especifica la distancia entre el margen superior del elemento y el margen superior de su contenedor.</p>
+<p>top</p>
+<p>5.- Esta propiedad especifica la distancia entre el margen inferior del elemento y el margen inferior de su contenedor. </p>
+<p>bottom</p>
+<p>6.- Esta propiedad especifica la distancia entre el margen izquierdo del elemento y el margen izquierdo de su contenedor.</p>
+<p>left</p>
+<p>7.- Esta propiedad especifica la distancia entre el margen derecho del elemento y el margen derecho de su contenedor.</p>
+<p>right</p>
+<p>8.- Esta propiedad define un índice que determina la posición del elemento en el eje z. El elemento con el índice más alto se dibujará sobre el elemento con el índice más bajo.</p>
+<p>z-index</p>
+<p>9.- Esta propiedad especifica el número de columnas que el navegador tiene que generar para distribuir el contenido del elemento.</p>
+<p>column-count</p>
+<p>10.- Esta propiedad declara el ancho de las columnas. El valor se puede declarar como auto (por defecto) o en cualquiera de las unidades de CSS, como píxeles o porcentaje.</p>
+<p>column-width</p>
+<p>11.- Esta propiedad se aplica a elementos dentro de la caja para determinar si el elemento se ubicará en una columna o repartido entre varias columnas. Los valores disponibles son all (todas las columnas) y none (por defecto).</p>
+<p>column-span</p>
+<p>12.- Esta propiedad determina cómo se repartirá el contenido entre las columnas. Los valores disponibles son auto (las columnas son completadas de forma secuencial) y balance (el contenido se divide en partes iguales entre todas las columnas).</p>
+<p>column-fill</p>
+<p>13.- Esta propiedad define el tamaño del espacio entre las columnas. Acepta un valor en cualquiera de las unidades disponibles en CSS, como píxeles y porcentaje.</p>
+<p>column-gap</p>
+<p>14.- Esta propiedad nos permite declarar los valores de las propiedades columncount y column-width al mismo tiempo.</p>
+<p>columns</p>
+<p>15.- Esta propiedad define el estilo de la línea usada para representar la división. Los valores disponibles son hidden (por defecto), dotted, dashed, solid, double, groove, ridge, inset, y outset.</p>
+<p>column-rule-style</p>
+<p>16.- Esta propiedad especifica el color de la línea usada para representar la división.</p>
+<p>column-rule-color</p>
+<p>17.- Esta propiedad especifica el ancho de la línea usada para representar la división.</p>
+<p>column-rule-width</p>
+<p>18.- Esta propiedad nos permite definir todos los valores de la línea al mismo tiempo.</p>
+<p>column-rule</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+
+		<p>Location:<a href="https://www.azulschool.net/quizzes/examen-7-html-y-css/"  target="new" >Examen 7 | HTML y CSS</a></p>
+
+		</body>
+		</html>
+		

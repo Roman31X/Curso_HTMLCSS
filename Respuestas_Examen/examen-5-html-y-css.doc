@@ -1,0 +1,210 @@
+		<!doctype html>
+		<html>
+			<head>
+				<meta charset="utf-8">
+				<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+				<title>Examen 5 | HTML y CSS</title>
+
+				
+				<style type="text/css">
+
+					html,body {
+						font-family: 'Arial', 'helvetica', 'san-serif';
+					}
+
+					
+				</style>
+
+			</head>
+		<body>
+		<h1>Examen 5 | HTML y CSS</h1>
+
+		
+		<p>Ingresa aquí tus apuntes:</p>
+<p>1.- Esta propiedad declara el tipo de letra que se usa para mostrar el texto. Se pueden declarar múltiples valores separados por coma para ofrecer al navegador varias.</p>
+<p>font-family</p>
+<p>2.- Esta propiedad determina el tamaño de la letra. El valor puede ser declarado en píxeles (px), porcentaje (%), o usando cualquiera de las unidades disponibles en CSS como em, rem, pt, etc. El valor por defecto es normalmente 16px.</p>
+<p>font-size</p>
+<p>3.- Esta propiedad determina si el texto se mostrará en negrita o no. Los valores disponibles son normal y bold, pero también podemos asignar los valores 100, 200, 300, 400, 500, 600, 700, 800, y 900 para determinar el grosor de la letra (solo disponibles para algunos tipos de letra).</p>
+<p>font-weight</p>
+<p>4.- Esta propiedad determina el estilo de la letra. Los valores disponibles son normal, italic, y oblique.</p>
+<p>font-style</p>
+<p>5.- Esta propiedad nos permite declarar múltiples valores al mismo tiempo. Los valores deben declararse separados por un espacio y en un orden preciso. El estilo y el grosor se deben declarar antes que el tamaño, y el tipo de letra al final (por ejemplo, font: bold 24px Arial,sans-serif).</p>
+<p>font</p>
+<p>6.- Esta propiedad alinea el texto dentro de un elemento. Los valores disponibles son left, right, center, y justify.</p>
+<p>text-align</p>
+<p>7.- Esta propiedad alinea la última línea de un párrafo. Los valores disponibles son left, right, center, y justify.</p>
+<p>text-align-last</p>
+<p>8.- Esta propiedad define el tamaño de la sangría de un párrafo (el espacio vacío al comienzo de la línea). El valor se puede declarar en píxeles (px), porcentaje (%), o usando cualquiera de las unidades disponibles en CSS, como em, rem, pt, etc.</p>
+<p>text-indent</p>
+<p>9.-  Esta propiedad define el espacio entre letras. El valor se debe declarar en píxeles (px), porcentaje (%) o usando cualquiera de las unidades disponibles en CSS, como em, rem, pt, etc.</p>
+<div class="wpProQuiz_question">
+<p>letter-spacing</p>
+<p>10.- Esta propiedad define el ancho del espacio entre palabras. El valor puede ser declarado en píxeles (px), porcentaje (%) o usando cualquiera de las unidades disponibles en CSS, como em, rem, pt, etc.</p>
+</div>
+<p>word-spacing</p>
+<p>11.- Esta propiedad define el espacio entre líneas. El valor se puede declarar en píxeles (px), porcentaje (%) o usando cualquiera de las unidades disponibles en CSS, como em, rem, pt, etc.</p>
+<p>line-height</p>
+<p>12.- Esta propiedad alinea elementos verticalmente. Se usa frecuentemente</p>
+<p>vertical-align</p>
+<p>13.- Esta propiedad resalta el texto con una línea. Los valores disponibles son underline, overline, line-through, y none.</p>
+<p>text-decoration</p>
+<p>14.- Esta función define un color por medio de los valores especificados por los atributos (desde 0 a 255). El primer valor representa el nivel de rojo, el segundo valor representa el nivel de verde y el último valor el nivel de azul (por ejemplo, rgb(153, 102, 51)).</p>
+<p>rgb(rojo, verde, azul)</p>
+<p>15.- Esta función es similar a la función rgb(), pero incluye un componente adicional para definir la opacidad (alfa). El valor se puede declarar entre 0 y 1, con 0 como totalmente transparente y 1 como totalmente opaco.</p>
+<p>rgba(rojo, verde, azul, alfa)</p>
+<p>16.- Esta función define un color desde los valores especificados por los atributos. Los valores se declaran en números decimales y porcentajes.</p>
+<p>hsl(matiz, saturación, luminosidad)</p>
+<p>17.- Esta función es similar a la función hsl(), pero incluye un componente adicional para definir la opacidad (alfa). El valor se puede declarar entre 0 y 1, con 0 como totalmente transparente y 1 como totalmente opaco.</p>
+<p>hsl(matiz, saturación, luminosidad, alfa)</p>
+<p>18.- Esta propiedad declara el ancho de un elemento. El valor se puede especificar en píxeles, porcentaje, o con la palabra clave auto (por defecto). Cuando el valor se especifica en porcentaje, el ancho se calcula según el navegador a partir del ancho del contenedor, y cuando se declara con el valor auto, el elemento se expande hasta ocupar todo el espacio horizontal disponible dentro del contenedor.</p>
+<p>width</p>
+<p>19.- Esta propiedad declara la altura de un elemento. El valor se puede especificar en píxeles, porcentaje, o con la palabra clave auto (por defecto). Cuando el valor se especifica en porcentaje, el navegador calcula la altura a partir de la altura del contenedor, y cuando se declara con el valor auto, el elemento adopta la altura de su contenedor.</p>
+<p>height</p>
+<p>20.- Esta propiedad especifica cómo se mostrará el contenido que desborda el elemento. Los valores disponibles son visible (por defecto), hidden (esconde el contenido que no entra dentro de la caja), scroll (muestra barras laterales para desplazar el contenido), auto (deja que el navegador decida qué hacer con el contenido).</p>
+<p>overflow</p>
+<p>21.- Esta propiedad especifica cómo se mostrará el contenido que desborda el elemento horizontalmente. Acepta los mismos valores que la propiedad overflow.</p>
+<p>overflow-x</p>
+<p>22.-Esta propiedad especifica cómo se mostrará el contenido que desborda el elemento verticalmente. Acepta los mismos valores que la propiedad overflow.</p>
+<p>overflow-y</p>
+<p>23.- Esta propiedad indica si un palabra debería ser dividida en un punto arbitrario cuando no hay suficiente espacio para mostrarla en la línea. Los valores disponibles son normal (la línea será dividida naturalmente) y break-word (las palabras se dividirán en puntos arbitrarios para acomodar la línea de texto en el espacio disponible).</p>
+<p>overflow-wrap</p>
+<p>24.- Esta propiedad declara el margen de un elemento. El margen es el espacio que hay alrededor de la caja. Puede recibir cuatro valores que representan el margen superior, derecho, inferior, e izquierdo, en ese orden y separados por un espacio.</p>
+<p>margin</p>
+<p>25.-Esta propiedad declara el relleno de un elemento. El relleno es el espacio entre el contenido del elemento y los límites de su caja. Los valores se declaran de la misma forma que lo hacemos para la propiedad margin.</p>
+<p>padding</p>
+<p>26.- Esta propiedad asigna un fondo de color a un elemento.</p>
+<p>background-color</p>
+<p>27.- Esta propiedad asigna una o varias imágenes al fondo de un elemento. La URL del archivo se declara con la función url() (por ejemplo, url(“fondo.jpg”)). Si se requiere más de una imagen, los valores se deben separar por una coma.</p>
+<p>background-image</p>
+<p>28.- Esta propiedad determina cómo se distribuye la imagen de fondo usando cuatro palabras clave: repeat, repeat-x, repeat-y y no-repeat.</p>
+<p>background-repeat</p>
+<p>29.- Esta propiedad declara la posición de comienzo de una imagen de fondo. Los valores se pueden especificar en porcentaje, píxeles o usando una combinación de las palabras clave center, left, right, top, y bottom.</p>
+<p>background-position</p>
+<p>30.- Esta propiedad declara el tamaño de la imagen de fondo. Los valores se pueden especificar en porcentaje, píxeles, o usando las palabras clave cover y contain.</p>
+<p>background-size</p>
+<p>31.- Esta propiedad determina si la imagen de fondo se posicionará considerando el borde, el relleno o el contenido del área del elemento. Los valores disponibles son border-box, padding-box, y content-box.</p>
+<p>background-origin</p>
+<p>32.- Esta propiedad declara el área a cubrir por el fondo usando los valores border-box, padding-box, y content-box. El primer valor corta la imagen al borde de la caja del elemento, el segundo corta la imagen en el relleno de la caja y el tercero corta la imagen alrededor del contenido de la caja.</p>
+<p>background-clip</p>
+<p>33.- Esta propiedad determina si la imagen es estática o se desplaza con el resto de los elementos usando dos valores: scroll (por defecto) y fixed. El valor scroll hace que la imagen se desplace con la página, y el valor fixed fija la imagen de fondo en su lugar original.</p>
+<p>background-attachment</p>
+<p>34.- Esta propiedad nos permite declarar todos los atributos del fondo al mismo tiempo.</p>
+<p>background</p>
+<p>35.- Esta propiedad define el ancho del borde. Acepta hasta cuatro valores separados por un espacio para especificar el ancho de cada lado del borde (superior, derecho, inferior, e izquierdo, es ese orden).</p>
+<p>border-width</p>
+<p>36.- Esta propiedad define el estilo del borde. Acepta hasta cuatro valores separados por un espacio para especificar los estilos de cada lado del borde (superior, derecho, inferior, e izquierdo, en ese orden).</p>
+<p>border-style</p>
+<p>37.- Esta propiedad define el color del borde. Acepta hasta cuatro valores separados por un espacio para especificar el color de cada lado del borde (superior, derecho, inferior, e izquierdo, en ese orden).</p>
+<p>border-color</p>
+<p>38.- Esta propiedad nos permite declarar todos los atributos del borde al mismo tiempo.</p>
+<p>border</p>
+<p>39.- Esta propiedad define el radio del círculo virtual que el navegador utilizará para dibujar las esquinas redondeadas. Acepta hasta cuatro valores para definir los radios de cada esquina (superior izquierdo, superior derecho, inferior derecho e inferior izquierdo, en ese orden).</p>
+<p>border-radius</p>
+<p>40.- Esta propiedad define el ancho del borde. Acepta valores en cualquiera de las unidades disponibles en CSS (px, %, em, etc.) y también las palabras clave thin, medium, y thick.</p>
+<p>outline-width</p>
+<p>41.- Esta propiedad define el estilo del borde. Los valores disponibles son none, auto, dotted, dashed, solid, double, groove, ridge, inset, y outset.</p>
+<p>outline-style</p>
+<p>42.- Esta propiedad define el color del borde.</p>
+<p>outline-color</p>
+<p>43.- Esta propiedad define el desplazamiento (a qué distancia de los límites de la caja se dibujará el segundo borde). Acepta valores en cualquiera de las unidades disponibles en CSS (px, %, em, etc.).</p>
+<p>outline-offset</p>
+<p>44.- Esta propiedad nos permite especificar el ancho, estilo y color del borde al mismo tiempo (el desplazamiento aún se debe definir con la propiedad outline-offset).</p>
+<p>outline</p>
+<p>45.- Esta propiedad determina la imagen que se usará para crear el borde.</p>
+<p>border-image-source</p>
+<p>46.- Esta propiedad define el ancho del borde. Acepta valores en cualquiera de las unidades disponibles en CSS (px, %, em, etc.).</p>
+<p>border-image-width</p>
+<p>47.- Esta propiedad define cómo se usa la imagen para generar el borde. Los valores disponibles son repeat, round, stretch, y space.</p>
+<p>border-image-repeat</p>
+<p>48.- Esta propiedad define cómo se va a cortar la imagen para representar las esquinas del borde. Debemos asignar cuatro valores para especificar los cuatro trozos de la imagen que se utilizarán (si solo se declara un valor, se usa para todos los lados).</p>
+<p>border-image-slice</p>
+<p>49.- Esta propiedad define el desplazamiento del borde (la distancia a la que se encuentra de la caja del elemento). Acepta valores en cualquiera de las unidades disponibles en CSS (px, %, em, etc.).</p>
+<p>border-image-outset</p>
+<p>50.- Esta propiedad nos permite especificar todos los atributos del borde al mismo tiempo.</p>
+<p>border-image</p>
+<p>51.- Esta propiedad genera una sombra desde un texto. Acepta hasta cuatro valores. Podemos declarar el desplazamiento horizontal y vertical, el radio de difuminado y el color de la sombra.</p>
+<p>text-shadow</p>
+<p>52.-</p>
+<div class="wpProQuiz_question_text">
+<p>Esta función produce un efecto de difuminado. Acepta valores en píxeles desde 1px a 10px.</p>
+</div>
+<p>blur(valor)</p>
+<p>53.- Esta función convierte los colores de la imagen en una escala de grises. Acepta números decimales entre 0.1 y 1.</p>
+<p>grayscale(value)</p>
+<p>54.- Esta función genera una sombra. Los atributos x e y determinan la distancia entre la sombra y la imagen, el atributo tamaño especifica el tamaño de la sombra, y el atributo color declara su color.</p>
+<p>drop-shadow(x, y, tamaño, color)</p>
+<p>55.- Esta función le otorga un tono sepia (ocre) a los colores de la imagen. Acepta números decimales entre 0.1 y 1.</p>
+<p>sepia(valor)</p>
+<p>56.- Esta función cambia el brillo de la imagen. Acepta números decimales entre 0.1 y 10.</p>
+<p>brightness(valor)</p>
+<p>57.- Esta función cambia el contraste de la imagen. Acepta números decimales entre 0.1 y 10.</p>
+<p>contrast(valor)</p>
+<p>58.- Esta función aplica una rotación a los matices de la imagen. Acepta un valor en grados desde 1deg a 360deg.</p>
+<p>hue-rotate(valor)</p>
+<p>59.- Esta función invierte los colores de la imagen y produce un negativo. Acepta números decimales entre 0.1 y 1.</p>
+<p>invert(valor)</p>
+<p>60.- Esta función satura los colores de la imagen. Acepta números decimales entre 0.1 y 10.</p>
+<p>saturate(valor)</p>
+<p>61.- Esta función cambia la opacidad de la imagen. Acepta números decimales entre 0 y 1 (0 es totalmente transparente y 1 totalmente opaco).</p>
+<p>opacity(valor)</p>
+<p>62.- Esta función cambia la escala del elemento. También podemos usar scalex() para escalar de forma horizontal y scaley() para vertical. Si en scale() solo se declara un valor este toma el mismo para los dos, x e y.</p>
+<p>scale(x, y)</p>
+<p>63.- Esta función rota el elemento. Podemos usar grados (deg), gradianes (grad), radianes (rad) y espiras (turn).</p>
+<p>rotate(ángulo)</p>
+<p>64.- Esta función inclina el elemento. Podemos usar grados (deg), gradianes (grad), radianes (rad) y espiras (turn).</p>
+<p>skew(ángulo)</p>
+<p>65.- Esta función desplaza al elemento a la posición determinada por los atributos x e y.</p>
+<p>translate(x, y)</p>
+<p>66.- Esta función asigna una nueva escala al elemento en un espacio 3D.</p>
+<p>sacale3d(x, y, z)</p>
+<p>67.- Esta función rota el elemento en un ángulo y sobre un eje específico.</p>
+<p>rotate3d(x, y, z, ángulo)</p>
+<p>68.- Esta función mueve el elemento a una nueva posición en el espacio 3D.</p>
+<p>translate3d(x, y, z)</p>
+<p>69.- Esta función agrega un efecto de profundidad a la escena incrementando el tamaño del lado del elemento cercano al espectador.</p>
+<p>perspective(valor)</p>
+<p>70.- Esta propiedad especifica las propiedades que participan en la transición. Además de los nombres de las propiedades, podemos asignar el valor all para indicar que todas las propiedades participarán en la transición.</p>
+<p>transition-property</p>
+<p>71.- Esta propiedad especifica la duración de la transición en segundos (s).</p>
+<p>transition-duration</p>
+<p>72.- Esta propiedad determina la función que se usa para calcular los valores para la transición. Los valores posibles son ease, ease-in, ease-out, ease-in-out, linear, step-start, y step-end.</p>
+<p>transition-timing-function</p>
+<p>73.- Esta propiedad especifica el tiempo que el navegador esperará antes de iniciar la animación.</p>
+<p>transition-delay</p>
+<p>74.- Esta propiedad nos permite declarar todos los valores de la transición al mismo tiempo.</p>
+<p>transition</p>
+<p>75.- Esta propiedad especifica el nombre usado para identificar los pasos de la animación. Podemos usar varias animaciones solo hay que separarlas por una coma.</p>
+<p>animation-name</p>
+<p>76.- Esta propiedad determina la duración de cada ciclo de animación.</p>
+<p>animation-duration</p>
+<p>77.- Esta propiedad determina cómo se llevará a cabo el proceso de animación por medio de una<a href="https://es.wikipedia.org/wiki/Curva_de_B%C3%A9zier"> curva Bézier</a> declara con los valores ease, linear, ease-in, ease-in, ease-out y ease-in-out.</p>
+<p>animation-timing-fuction</p>
+<p>78.- Esta propiedad especifica el tiempo que el navegador esperará antes de iniciar la animación.</p>
+<p>animation-delay</p>
+<p>79.- Esta propiedad declara la cantidad de veces que se ejecutará la animación. Acepta un número entero o el valor infinite, el cual hace que la animación se ejecute por tiempo indefinido. El valor por defecto es 1. </p>
+<p>animation-iteration-count</p>
+<p>80.-  Esta propiedad declara la dirección de la animación. Acepta cuatro valores: normal (por defecto), reverse, alternate, y alternate-reverse.</p>
+<p>animation-direction</p>
+<p>81.- Esta propiedad define cómo afecta la animación a los estilos del elemento. Acepta los valores none (por defecto), forwards, backwards, y both.</p>
+<p>animation-fill-mode</p>
+<p>82.- Esta propiedad nos permite definir todos los valores de la animación al mismo tiempo.</p>
+<p>animation</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+
+		<p>Location:<a href="https://www.azulschool.net/quizzes/examen-5-html-y-css/"  target="new" >Examen 5 | HTML y CSS</a></p>
+
+		</body>
+		</html>
+		

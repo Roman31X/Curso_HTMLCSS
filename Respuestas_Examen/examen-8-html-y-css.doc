@@ -1,0 +1,62 @@
+		<!doctype html>
+		<html>
+			<head>
+				<meta charset="utf-8">
+				<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+				<title>Examen 8 | HTML y CSS</title>
+
+				
+				<style type="text/css">
+
+					html,body {
+						font-family: 'Arial', 'helvetica', 'san-serif';
+					}
+
+					
+				</style>
+
+			</head>
+		<body>
+		<h1>Examen 8 | HTML y CSS</h1>
+
+		
+		<p>Ingresa aquí tus apuntes:</p>
+<p>1.- Este modelo aprovecha las herramientas que usa el modelo de caja tradicional, como el posicionamiento absoluto y las columnas, pero en lugar de hacer flotar los elementos organiza las cajas usando contenedores flexibles.</p>
+<p>Modelo de caja flexible.</p>
+<p>2.- Esta propiedad declara la proporción en la cual el elemento se va a expandir o encoger. La proporción se determina considerando los valores asignados al resto de los elementos de la caja (los elementos hermanos).</p>
+<p>flex-grow</p>
+<p>3.- Esta propiedad declara la proporción en la que el elemento se va a reducir. La proporción se determina a partir de los valores asignados al resto de los elementos de la caja (los elementos hermanos).</p>
+<p>flex-shrink</p>
+<p>4.- Esta propiedad declara un tamaño inicial para el elemento.</p>
+<p>flex-basis</p>
+<p>5.- Esta propiedad nos permite configurar los valores de las propiedades flex-grow, lex-shrink, y flex-basis al mismo tiempo.</p>
+<p>flex</p>
+<p>6.-Las cajas flexibles se expanden o encogen para ocupar el espacio libre dentro de la caja padre.</p>
+<p>Verdad</p>
+<p>7.-Un contenedor flexible usa ejes para describir la orientación de su contenido. La especificación declara dos ejes que son independientes de la orientación: el eje principal y el eje transversal.</p>
+<p>Verdad</p>
+<p>8.-Esta propiedad especifica el orden de las cajas. Acepta números enteros que determinan la ubicación de cada caja.</p>
+<p>order</p>
+<p>9.-Esta propiedad determina cómo se va a distribuir el espacio libre. Los valores disponibles son flex-start, flex-end, center, space-between, y space-around.</p>
+<p>justify-content</p>
+<p>10.-Esta propiedad alinea las cajas en el eje transversal. Los valores disponibles son flex-start, flex-end, center, baseline, y stretch.</p>
+<p>align-items</p>
+<p>11.-Esta propiedad alinea una caja en el eje transversal. Trabaja como alignitems pero afecta cajas de forma individual. Los valores disponibles son auto, flexstart, flex-end, center, baseline, y stretch.</p>
+<p>align-self</p>
+<p>12.-Esta propiedad determina si se permiten crear múltiples líneas de cajas. Los valores disponibles son nowrap, wrap, y wrap-reverse.</p>
+<p>flex-wrap</p>
+<p>13.-Esta propiedad alinea las líneas de cajas en el eje vertical. Los valores disponibles son flex-start, flex-end, center, space-between, space-around, y stretch.</p>
+<p>align-content</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+
+		<p>Location:<a href="https://www.azulschool.net/quizzes/examen-8-html-y-css/"  target="new" >Examen 8 | HTML y CSS</a></p>
+
+		</body>
+		</html>
+		
