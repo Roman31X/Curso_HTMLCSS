@@ -1,37 +1,34 @@
-*{
-    font-family: Arial, Vernada;
+* {
+  font-family: Arial, Vernada;
 }
 
-.verdana{
-
-    font-family: Verdana; /*Esta propiedad declara el tipo de letra*/
-    font-weight: 600; /*Esta propiedad determina si se muestra en negrita o no*/
-    letter-spacing: 10px;
-    text-align: center;
+.verdana {
+  font-family: Verdana; /*Esta propiedad declara el tipo de letra*/
+  font-weight: 600; /*Esta propiedad determina si se muestra en negrita o no*/
+  letter-spacing: 10px;
+  text-align: center;
 }
 
-p{
-    /*font: bold 17px Thahoma;*/
-    font-size: 17px; /*Esta propiedad determina el tamaño de letra*/
-    font-style: italic; /*Esta propiedad nos permite determinar el estilo de letra*/
+p {
+  /*font: bold 17px Thahoma;*/
+  font-size: 17px; /*Esta propiedad determina el tamaño de letra*/
+  font-style: italic; /*Esta propiedad nos permite determinar el estilo de letra*/
 }
 
-#texto{
-    /*text-align-last: right;*/
-    text-indent:20px;
-    line-height: 20px;
-    backgraund:blue;
-    /*le da color al texto*/
-    /*color: blue;*/
-    /*font:; Esta propiedad nos permite declarar multiples valores*/
+#texto {
+  /*text-align-last: right;*/
+  text-indent: 20px;
+  line-height: 20px;
+  backgraund: blue;
+  /*le da color al texto*/
+  /*color: blue;*/
+  /*font:; Esta propiedad nos permite declarar multiples valores*/
 }
 
-#texto img{
-   vertical-align: text-top; /*Esta propiedad alinea el texto verticalmente*/
-
-
+#texto img {
+  vertical-align: text-top; /*Esta propiedad alinea el texto verticalmente*/
 }
 
-#texto a{
-    text-decoration: none;
+#texto a {
+  text-decoration: none;
 }

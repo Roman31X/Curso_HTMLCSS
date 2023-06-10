@@ -1,34 +1,34 @@
-section{
-    background: #000000;
+section {
+  background: #000000;
 }
 
-section div{
-    /*esta propiedad declara el ancho y alto de los elementos*/
-    width:500px; /*ANCHO DEL ELEMENTO*/
-    height:200px;/*ALTO DEL ELEMENTO*/
-    /*overflow:scroll; determina como se mostrara lo que se desborda del elemento
+section div {
+  /*esta propiedad declara el ancho y alto de los elementos*/
+  width: 500px; /*ANCHO DEL ELEMENTO*/
+  height: 200px; /*ALTO DEL ELEMENTO*/
+  /*overflow:scroll; determina como se mostrara lo que se desborda del elemento
     overflow-x: scroll; mostrara barras de navegación */
-    margin: auto;
-    /*margin:10px 10px 10px 10px; es definición de los margenes de un elemento
+  margin: auto;
+  /*margin:10px 10px 10px 10px; es definición de los margenes de un elemento
     o contenedor en una sola linea
     Aquí se agrega los margenes especificos
     margin-left:; izquierdo
     margin-right:; derecho
     margin-bottom:; parte inferior
     margin-top:; parte superior*/
-    /*Con esta propiedad nos permite definir los margenes del contenido
+  /*Con esta propiedad nos permite definir los margenes del contenido
     dentro de un elemento o contenedor*/
-    padding:10px 100px 10px 10px;
-    padding-left:;
-    padding-right: ;
-    padding-bottom: ;
-    padding-top: ;
+  padding: 10px 100px 10px 10px;
+  padding-left: ;
+  padding-right: ;
+  padding-bottom: ;
+  padding-top: ;
 }
 
-#uno{
-    background: #F48080;
+#uno {
+  background: #f48080;
 }
 
-#dos{
-    background: #96EFCF;
+#dos {
+  background: #96efcf;
 }

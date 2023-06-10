@@ -1,30 +1,30 @@
 /*DANDO ESTILO DE FONDO*/
-#contenedor1{
-    border:solid 5px;
-    width: 600px;
-    height: 200px;
-    margin: auto;
-    padding: 10px;
-    /*background-color: blue; dar color de fondo*/
-    background-image: url(../ImagenCurso/demi.png);
-    background-repeat: no-repeat;/* con esta función podemos
+#contenedor1 {
+  border: solid 5px;
+  width: 600px;
+  height: 200px;
+  margin: auto;
+  padding: 10px;
+  /*background-color: blue; dar color de fondo*/
+  background-image: url(../ImagenCurso/demi.png);
+  background-repeat: no-repeat; /* con esta función podemos
     repetir como no repetir previamnete modificando*/
-    /*con este comnando coloca el fondo estatico */
-    background-attachment: fixed;
-    /*Pacolocar el fondo estatico que no se repita en una sola linea
+  /*con este comnando coloca el fondo estatico */
+  background-attachment: fixed;
+  /*Pacolocar el fondo estatico que no se repita en una sola linea
     de comando
     background: #DB5D5D url(../ImagenCurso/fond.jpg) no-repeat fixed)*/
-    /*para editar el tamaño de la imagen*/
-    background-size: cover;
-    /*alineamos el texto al medio*/
-    text-align: center;
-    /*le damos un margen al contenedor*/
-    margin-top:50px;
-    /*le damos margenes internos al contenido*/
-    padding-left:50px;
-    padding-right: 50px;
+  /*para editar el tamaño de la imagen*/
+  background-size: cover;
+  /*alineamos el texto al medio*/
+  text-align: center;
+  /*le damos un margen al contenedor*/
+  margin-top: 50px;
+  /*le damos margenes internos al contenido*/
+  padding-left: 50px;
+  padding-right: 50px;
 }
-#contenedor2{
-    height:600px;
-    background: #DB5D5D url(../ImagenCurso/fondo.jpg) no-repeat fixed;
+#contenedor2 {
+  height: 600px;
+  background: #db5d5d url(../ImagenCurso/fondo.jpg) no-repeat fixed;
 }
