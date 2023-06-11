@@ -1,0 +1,54 @@
+* {
+  background-color: rgb(194, 237, 234);
+  text-align: center;
+  text-align: center;
+  margin: auto 50px;
+}
+
+h1 {
+  color: blue;
+  background-color: black;
+  padding: 25px;
+  border: 10px solid blue;
+}
+p {
+  color: royalblue;
+  background-color: aquamarine;
+  border: 10px solid red;
+}
+/*ACCION CUANDO AUN NO SE DA CLIC EN EL ELEMENTO
+La siguiente linea es para quitar la animacion 
+del subrayado*/
+.imagen,
+a:link {
+  color: tomato;
+  text-decoration: none;
+}
+/*A CCION CUANDO YA SE DIO CLIV AL ELEMENTO DE ENLACE*/
+a:visited {
+  color: red;
+  text-decoration: none;
+}
+/*MAS SIMPLE EN UNA SOLA LINEA*/
+/*Cuando esta encima del link*/
+
+img {
+  width: 80px;
+  height: 150px;
+  border: 10px solid yellow;
+}
+.boton,
+a:link,
+a:visited {
+  color: black;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.boton,
+a:hover,
+a:active {
+  margin: 20px;
+  color: blueviolet;
+}
