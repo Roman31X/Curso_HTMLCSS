@@ -1,0 +1,32 @@
+h1{
+    text-align: center;
+    color: rgb(68, 68, 190);
+    font-size: 40px;
+}
+a{
+    text-align: center;
+    font-size: 20px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    text-decoration: none;
+    margin-left: 40%;
+}
+
+ol{
+    list-style: none;
+    counter-reset: contador;
+}
+ol li{
+    counter-increment: contador;
+}
+/*Agregara ntes del contenido
+acepta comillas dobles y simples*/
+
+ol li::before{
+    content: "Dia [" counter(contador) '] ';
+    color: blueviolet;
+}
+/*Agregar despues del contenido*/
+ol li::after{
+    content: ' Horas';
+}

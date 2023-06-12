@@ -1,0 +1,25 @@
+h1{
+    color: rgb(35, 35, 151);
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+    background-color: aquamarine;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: black;
+    padding: 20px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: azure;
+    color: brown;
+}

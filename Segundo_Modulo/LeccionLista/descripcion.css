@@ -1,0 +1,13 @@
+h1{
+    text-align: center;
+    font-size: 40px;
+    color: teal;
+}
+a{
+    text-align: center;
+    font-size: 20px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    text-decoration: none;
+    margin-left: 40%;
+}
