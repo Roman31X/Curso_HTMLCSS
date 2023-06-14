@@ -1,0 +1,51 @@
+html{
+    height: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    /*Degradado de un colo superior a uno inferior*/
+    background: linear-gradient(#162ddb,rgb(92, 200, 208));
+}
+.contenedor{
+    margin: 50px auto;
+    margin-top: 11%;
+    width: 400px;
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px ;
+}
+.contenedor h2{
+    text-align: center;
+    margin: 0 0 30px;
+    padding: 0;
+    font-size: 30px;
+    color: rgb(0, 255, 85);
+}
+/*SELECTORES DE ELEMENTO*/
+.contenedor .elemento label{
+    color: #ffff;
+}
+.contenedor .elemento input{
+    width: 100%;
+    padding: 10px 0;
+    color: rgb(0, 0, 0);
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #ffff;
+    margin-bottom: 30px;
+}
+/*EDITAR EL CONTENDIO DEL INPUT*/
+.contenedor .elemento input[placeholder]{
+    padding-left: 10px;
+}
+.contenedor .elemento input[type="submit"]{
+    background-color: rgb(84, 240, 27);
+    border: none;
+    /*separacion entre letras*/
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding:15px;
+    margin-top: 30px;
+}

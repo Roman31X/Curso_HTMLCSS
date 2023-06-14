@@ -1,16 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
 .contenido {
-  margin-left: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
-  width: 500px;
+  color: white;
+  font-size: 20px;
+  margin: 10%;
+  padding: 5%;
+  width: auto;
   height: 200px;
   /*sentencia general al elemento*/
-  border: solid 5px #01fff9;
+  border: solid 5px #149085;
   /*linea para agregar color al elemento*/
   /*background: #5BBCBA;*/
   /*Con esta sentencia se manipula los radios
     del borde del elemento*/
-  border-radius: 50px 50px 0px 0px;
+  border-radius: 50px 0px 50px 0px;
   /*Para crear sombra al elemento
     + dirigido hacia la derecha
     - dirigido hacia la izquierda
@@ -18,8 +24,8 @@
     de difuminación del color*/
   box-shadow: #a3eeec -20px -5px 5px;
   /*sombra para el texto*/
-  text-shadow: red 10px 10px 5px;
+  text-shadow: rgb(255, 255, 255) 10px 10px 5px;
   /*agregando gradiente del color en escala solo funciona
     en algunos navegadores no en todos o incluye vensiones*/
-  background-image: -webkit-linear-gradient(left, #5bbcba, #d5fd42);
+  background-image: -webkit-linear-gradient(left, #ff0000, #3ad5ed);
 }

@@ -1,6 +1,8 @@
 h1 {
   /*color:#6BDC59;*/
-  color: deeppink;
+  /*color: deeppink;*/
+  color: rgba(255, 52, 53, 0.5);
+  font-size: 60px;
 }
 
 /*

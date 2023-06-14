@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Roman31X</title>
+  </head>
+  <body>
+    <h1>Roman31X</h1>
+    <br />
+    <!--
+    [method : defaunt get]
+    POST : no envia dato cuerpo del url
+    GET : por default SI envia infomracion dentro del cuerpo del url
+    target="_self" carga en la misma pagina
+    target="_blank" carag en una nueva venta del navegador-->
+    <!--PARA QUE NO SE AUTOCOMPLETE EL FOMRULARIO
+    autocomplete="off" ya no rellenara loc campos rellenados con informacion guardada-->
+    <form action="mi_servidor" method="POST" target="_blank" autocomplete="off">
+        <!--ETIQUETA PARA  MARCO PARA FORMULARIO-->
+      <fieldset>
+        <!--ETIQUETA PARA PONER TESTO EN EL MARCO DL FORMULARIO-->
+        <legend>Datos Personal</legend>
+        <!--type : espesifica el tipo de valor a recirbir
+        id : es necesario para conocer entre el nombre y el campo a llenar
+        placeholder : texto que no se envia por ser trasparante
+        type="email" : para l aminipulacion de correo
+        required [true - false] : true obligatorio y false no 
+        novalidate : no hace valido l aobligacion del dato a inresar
+        step="any" : para aceptar numeros decimales-->
+        <!--readonly="true" Dato no se ver en el URL pero si es un dato visible en la ruta
+        desavilitado diseabled="true : no se puede modificar y no se envia al servidor"-->
+        <label for="idPersona">ID Persona: </label>
+        <input type="text" id="idPersona" name="isPersona" readonly="true" value="100"><br>
+        <!--TEXTO-->
+        <label for="nombre">Nombre :</label><br />
+        <input type="text" id="nombre" placeholder="Ingrese nombre" /><br />
+        
+        <label for="apellido">Apellido :</label><br />
+        <input type="text" id="apellido" placeholder="Ingrese apellido" /><br />
+        <!--EMAIL-->
+        <label for="correo">Email :</label><br />
+        <input type="email" id="correo" required="true" /><br />
+        <!--PASSWORD-->
+        <label for="password">Password :</label><br />
+        <input
+          type="password"
+          id="password"
+          placeholder="email"
+          required="true"
+        /><br />
+        <!--NUMERAL-->
+        <label for="edad">Edad: </label><br />
+        <input type="number" id="edad" name="edad" step="any" /><br />
+        <!--radio boton-->
+        <label for="radio">Genero: </label><br />
+        <input type="radio" name="genero" id="femenino" value="femenino" />
+        <label for="femenino">Femenino</label><br />
+        <input type="radio" name="genero" id="masculino" value="masculino" />
+        <label for="masculino">Maculino</label>
+        <br />
+        <!--CHECKBOOX-->
+        <label>GENERO DE MUSICA</label><br />
+        <input type="checkbox" id="clasica" name="clasica" value="clasica" />
+        <label for="clasica">Clasica</label><br />
+        <input type="checkbox" id="clasica" name="rock" value="clasica" />
+        <label for="clasica">Rock</label><br />
+        <input type="checkbox" id="clasica" name="balada" value="clasica" />
+        <label for="clasica">Balada</label>
+        <br />
+        <!--SELECT - OPTION - barra de seleccion
+        select multipe="true" se despliega todo para seleccion mas de uno-->
+        <label for="auto">Autos a comprar: </label><br />
+        <select name="auto" id="auto">
+          <option value="volvo">Volvo</option>
+          <br />
+          <option value="Chevrolet">Chevrolet</option>
+          <br />
+          <option value="Nissan">Nissan</option>
+          <br />
+          <option value="toyota" selected="true">Toyota</option>
+        </select>
+        <br />
+        <!--CAJA DE TEXTO-->
+        <label for="comentario">Comnetario: </label><br />
+        <textarea id="comentario" name="comentario" rows="2" cols="30">
+      Este es mi comentario
+      </textarea
+        >
+        <br />
+        <!--BOTON PARA ENVIAR RESPETANDO QUE SE VALIDE LAS CASILLAS-->
+        <input type="submit" name="" value="Enviar" />
+        <!--BOTON PARA ENVIAR EL CONTENIDO DEL FORMULARIO AUN SIN VALIDAR-->
+        <input type="submit" formnovalidate="formnovalidate" value="Enviar" />
+        <!--BOTON PARA RESETEAR LOS CAMPOS DONDE SE REGISTRA LA INFORMACION-->
+        <input type="reset" value="Restablecer">
+      </fieldset>
+    </form>
+  </body>
+</html>
