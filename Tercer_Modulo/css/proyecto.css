@@ -3,24 +3,33 @@
   padding: 0;
   width: 100%;
 }
-.Cabecera {
+/**CABECERA**/
+.Padre-Cabecera {
   background-color: azure;
   width: 100%;
   height: 200px;
-  text-align:justify;
   border: 1px solid red;
-  .Cabecera, img{
-    width: 100px;
-    height: 90px;
-  }
+  display: flex;
+  
+}
+.Hijo-logo{
+  border: 1px solid blue;
+  
+  
+}
+.Text-Titulo-Navegador{
+  text-align: center;
 }
 
+
+/**CUERPO**/
 .Cuerpo {
   background-color: beige;
   width: 100%;
   height: 500px;
   border: 1px solid red;
 }
+/**PIE DE PAGINA**/
 .Pie {
   background-color: black;
   width: 100%;
