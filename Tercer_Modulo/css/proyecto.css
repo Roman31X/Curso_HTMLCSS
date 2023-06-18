@@ -42,13 +42,13 @@ align-items: flex-end;
 
 /**CUERPO**/
 .Cuerpo {
-  background-color: rgb(53, 218, 230);
+  background-color: rgb(56, 113, 118);
   width: 100%;
   height: 500px;
 }
 /**PIE DE PAGINA**/
 .Pie {
-  background-color: rgb(61, 61, 61);
+  background-color: rgb(211, 139, 139);
   width: 100%;
   height: 300px;
 }
